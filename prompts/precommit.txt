@@ -1,0 +1,20 @@
+# Pre-commit Reminder
+
+Before writing any code today, internalize:
+
+The code you don't write today is code you don't maintain forever.
+
+## Decision Tree
+
+When approaching a task:
+
+1. **Can I do nothing?** (best option) → Do nothing
+2. **Can I delete something instead?** → Delete
+3. **Can I use copy-paste instead of abstraction?** → Copy-paste
+4. **Only then: write the minimum necessary code.**
+
+## Daily Goal
+
+**Maximum impact, minimum lines added.**
+
+Remember: A closed ticket with 0 lines of code is the best outcome.

@@ -1,0 +1,24 @@
+# Lazy Code Review Prompt
+
+Review this code change and score it on laziness:
+
+## Scoring (0-10)
+
+1. **Deletion score (0-3)**: Did we remove more than we added?
+   - +1 for each deletion
+   - +1 if net negative lines
+
+2. **Simplicity score (0-3)**: Is the solution the simplest possible?
+   - Complex solutions lose points
+
+3. **Reuse score (0-2)**: Did we reuse existing code rather than creating new?
+
+4. **Question score (0-2)**: Did we ask "can this be simpler?" before writing?
+
+## Laziness Anti-patterns (flag these)
+
+- Unnecessary new files
+- Over-engineering for potential future use
+- Adding comments that state the obvious
+- Creating utility functions used only once
+- Abstracting something that could be copy-pasted
